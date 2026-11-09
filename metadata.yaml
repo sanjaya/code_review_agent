@@ -1,0 +1,14 @@
+title: Code Review Agent
+description: >-
+  A beginner-friendly command-line AI agent that reviews code for bugs,
+  security issues, performance problems, and style, then suggests fixes.
+  Built with LangChain and works with any model available on OpenRouter.
+author: sanjayapanigrahy
+language: python
+framework: langchain
+tags: [code-review, software-development, security, quality]
+industry: software-development
+difficulty: beginner
+llm: openai/gpt-4o
+entrypoint: src/code_reviewer_agent/reviewer.py
+requirements: requirements.txt
